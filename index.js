@@ -7,8 +7,8 @@ function printBadges(arr) {
 }
 
 function tailsNeverFails() {
-  let flip = Math.random();
-  while (flip === "tails") {
-    
+  
+  while (Math.random() >= 0.5) {
+    console.log("Tails Never Fails!")
   }
 }
