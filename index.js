@@ -5,3 +5,7 @@ function printBadges(arr) {
   }
   return arr;
 }
+
+function tailsNeverFails() {
+  
+}
